@@ -4,23 +4,18 @@
 
 ## 🛠️ Используемые технологии
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/><br/>
-      <span>для построения интерактивных пользовательских интерфейсов</span>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/><br/>
-      <span>для обеспечения безопасности типов и улучшения читаемости кода</span>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SCSS"/><br/>
-      <span>мощный синтаксис для написания CSS с переменными, вложенностью и миксинами</span>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <br> для построения интерактивных пользовательских интерфейсов
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <br> для обеспечения безопасности типов и улучшения читаемости кода
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SCSS" />
+  <br> мощный синтаксис для написания CSS с переменными, вложенностью и миксинами
+</p>
+
