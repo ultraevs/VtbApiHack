@@ -32,5 +32,9 @@ func (router *Router) Setup() {
 	//router.engine.Use(middleware.RateLimiterMiddleware())
 	v1 := router.engine.Group("/v1")
 	router.AuthRoutes(v1)
+	router.PaymentsRoutes(v1)
+	router.AccountRoutes(v1)
+	router.VRPRoutes(v1)
+	router.CreditProductRoutes(v1)
 
 }
