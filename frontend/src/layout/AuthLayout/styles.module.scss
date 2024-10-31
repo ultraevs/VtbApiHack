@@ -1,0 +1,102 @@
+.layout {
+    display: flex;
+    gap: 172px;
+
+
+    &__left {
+        background: #0B68EF;
+        width: 828px;
+        padding: 173px 78px 192px 138px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 245px;
+
+        &__top {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+
+            h1 {
+                color: #FFF;
+                font-family: "Geist", sans-serif;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 66px;
+                /* 110% */
+                letter-spacing: -2px;
+            }
+
+            &__text {
+                opacity: 0.8;
+                color: #FFF;
+                font-family: "Geist", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        &__bottom {
+        &__text {
+                color: #FFF;
+                font-family: "Geist", sans-serif;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34px;
+                /* 161.905% */
+
+                margin: 30px 0 23px 0;
+            }
+
+            &__comment {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                &__name {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    p:nth-child(1) {
+                        color: #FFF;
+                        font-family: "Geist", sans-serif;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 28px;
+                        /* 175% */
+                        letter-spacing: -0.2px;
+                    }
+
+                    p:nth-child(2) {
+                        color: #CBD5E1;
+                        font-family: "Geist", sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22px;
+                        /* 157.143% */
+                    }
+                }
+            }
+
+        }
+
+//         &__shape{
+//             width: 569px;
+// height: 406.316px;
+// flex-shrink: 0;
+// border-radius: 569px;
+// border: 7px solid #FFF;
+//         }
+    }
+
+    main{
+        padding-top: 173px;
+    }
+}
