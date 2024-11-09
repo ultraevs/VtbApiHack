@@ -1,0 +1,117 @@
+.navbar {
+    width: 270px;
+    flex-shrink: 0;
+    background: #F4F5F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__content {
+        padding: 43px 20px 0 20px;
+        height: 1080px;
+        background: #FFF;
+        border-right: 1px solid #E2E2E2;
+
+
+        &__menu {
+            margin: 44px 0 7px 0;
+            opacity: 0.4;
+            color: #000;
+            font-family: "Grandis Extended", sans-serif;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .navbar__dropdownButton {
+            display: flex;
+            align-items: center;
+            width: 230px;
+            padding: 15px 12px;
+            margin-bottom: 12px;
+            background-color: #0B68EF;
+            color: #FFF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: "Grandis Extended", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+
+            &:hover {
+                background-color: #084bba;
+            }
+
+            &__content {
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-left: 8px;
+                    margin-right: auto;
+                }
+            }
+
+        }
+
+        .navbar__dropdownMenu {
+            list-style: none;
+            padding: 0;
+
+            .navbar__item {
+                margin: 10px 0;
+            }
+
+            .navbar__link {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                padding: 12px 16px;
+                border-radius: 4px;
+                font-family: "Grandis Extended", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                cursor: pointer;
+
+                &.active {
+                    background: rgba(11, 104, 239, 0.20);
+                    color: #0B68EF;
+                }
+
+                &.inactive {
+                    color: #A4A4A4;
+                }
+
+                &:hover {
+                    background: rgba(11, 104, 239, 0.30);
+                }
+
+                .navbar__icon {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    &__login {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+
+        color: #8D8D8D;
+        font-family: "Grandis Extended", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        svg {
+            margin-right: 8px;
+        }
+
+        &:hover {
+            color: #0B68EF;
+        }
+    }
+}
