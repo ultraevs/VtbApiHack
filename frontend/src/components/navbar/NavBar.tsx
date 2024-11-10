@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from "./styles.module.scss";
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 interface NavbarProps {
     state: boolean;
@@ -8,6 +9,7 @@ interface NavbarProps {
 }
 
 const NavBar = () => {
+    const navigate = useNavigate();
     const [activeSection, setActiveSection] = useState("home");
     const [isDropdownOpen, setDropdownOpen] = useState(false);
 
@@ -17,6 +19,7 @@ const NavBar = () => {
 
     const toggleDropdown = () => {
         setDropdownOpen(!isDropdownOpen);
+        navigate("/");
     };
 
     return (
@@ -100,6 +103,13 @@ const NavBar = () => {
                         </li>
                     </ul>
                 )}
+
+                <Link to={"/money"} className={styles.navbar__money}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+                        <path d="M1 9H9C10.0609 9 11.0783 8.57857 11.8284 7.82843C12.5786 7.07828 13 6.06087 13 5C13 3.93913 12.5786 2.92172 11.8284 2.17157C11.0783 1.42143 10.0609 1 9 1H4V19M1 13H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <p>Мои счета</p>
+                </Link>
 
                 <Link to={"/auth"} className={styles.navbar__login}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">

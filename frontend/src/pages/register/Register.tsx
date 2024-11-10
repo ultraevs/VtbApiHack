@@ -32,19 +32,7 @@ const Register = () => {
 
     const buttonClick = async () => {
         if (loginInput.surname !== "" && loginInput.email !== "" && loginInput.password !== "") {
-            try {
-                const response = await createUser(loginInput);
-
-                if (response.success) {
-                    setAuthTokenCookie(response.data);
-                    window.localStorage.setItem("isAuth", "true")
-                    navigate("/");
-                } else {
-                    alert("Ошибка: " + response.error);
-                }
-            } catch (error) {
-                console.error(error);
-            }
+           navigate("/")
         } else {
             alert("Что-то не так");
         }
@@ -67,8 +55,8 @@ const Register = () => {
                     />
                     <p>Эл. почта</p>
                     <input
-                        type="mail"
-                        name="mail"
+                        type="email"
+                        name="email"
                         value={loginInput.email}
                         onChange={handleLoginInput}
                     />
