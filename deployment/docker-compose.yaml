@@ -7,3 +7,12 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5179:5179"
+  backend:
+    build:
+      context: ../go-backend/
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      - DOCKER_MODE=1
+    ports:
+      - "8000:8000"
