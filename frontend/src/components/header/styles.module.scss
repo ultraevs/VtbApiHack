@@ -4,4 +4,19 @@
     flex-shrink: 0;
     border-bottom: 1px solid #E2E2E2;
     background: #FFF;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 34px 120px 34px 1289px;
+    gap: 13px;
+
+    p {
+        color: #000;
+        font-family: "Grandis Extended", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 }

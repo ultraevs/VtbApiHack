@@ -98,6 +98,7 @@
         align-items: center;
         cursor: pointer;
         text-decoration: none;
+        padding: 15px 0;
 
         color: #8D8D8D;
         font-family: "Grandis Extended", sans-serif;
@@ -112,6 +113,28 @@
 
         &:hover {
             color: #0B68EF;
+        }
+    }
+
+    &__money {
+        display: flex;
+        width: 230px;
+        padding: 15px 12px;
+        gap: 8px;
+        justify-content: start;
+        align-items: center;
+        border-radius: 4px;
+        background: #0B68EF;
+
+        text-decoration: none;
+
+        p {
+            color: #FFF;
+            font-family: "Grandis Extended", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
         }
     }
 }
