@@ -8,9 +8,9 @@
 ### Задача: Создание приложений на основе Open Banking API
 
 ## Используемый стек технологий:
-- [GO-Backend](https://github.com/ultraevs/AtomicHack/tree/main/go-backend) - Реализован с использванием [GO](https://go.dev/) и фреймворка [Gin](https://github.com/gin-gonic/gin). Задачей модуля является реализация API для взаимодействия с frontend модулем.
-- [Frontend](https://github.com/ultraevs/FicHack/tree/main/frontend/fic-hack) - Реализован с использованием [React](https://ru.legacy.reactjs.org/). Задачай является предоставление красивого и функционалоного интерфейса для пользователя.
-- [Deployment](https://github.com/ultraevs/FicHack/tree/main/deployment) - Реализован с использованием [Docker-Compose](https://www.docker.com/). Задачей модуля является возможность быстрого и безошибочного развертывания приложения на любом сервере.
+- [GO-Backend](https://github.com/ultraevs/VtbApiHack/tree/main/go-backend) - Реализован с использванием [GO](https://go.dev/) и фреймворка [Gin](https://github.com/gin-gonic/gin). Задачей модуля является реализация API для взаимодействия с frontend модулем.
+- [Frontend](https://github.com/ultraevs/VtbApiHack/tree/main/frontend) - Реализован с использованием [React](https://ru.legacy.reactjs.org/). Задачай является предоставление красивого и функционалоного интерфейса для пользователя.
+- [Deployment](https://github.com/ultraevs/VtbApiHack/tree/main/deployment) - Реализован с использованием [Docker-Compose](https://www.docker.com/). Задачей модуля является возможность быстрого и безошибочного развертывания приложения на любом сервере.
 
 ## Функционал решения
 
