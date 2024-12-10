@@ -4,6 +4,7 @@
 
 
 # [Ссылка на готовое решение](http://vtb.shmyaks.ru/)
+# [Figma](https://www.figma.com/design/NKToYQvFZ7sKCCjoI6aTYq/vtb-api?node-id=0-1&t=oSV0RNYPFzDoB8hU-1)
 
 ### Задача: Создание приложений на основе Open Banking API
 
