@@ -1,11 +1,11 @@
 # VtbApiHack
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Figma](https://img.shields.io/badge/figma-%2320232a.svg?style=for-the-badge&logo=figma)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)![Go](https://img.shields.io/badge/golang-%23007ACC.svg?style=for-the-badge&logo=go&logoColor=white)![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Figma](https://img.shields.io/badge/figma-%2320232a.svg?style=for-the-badge&logo=figma)
 
 
 
 # [Ссылка на готовое решение](http://vtb.shmyaks.ru/)
 
-### Задача: Разработка модуля классификации опор ЛЭП
+### Задача: Создание приложений на основе Open Banking API
 
 ## Используемый стек технологий:
 - [GO-Backend](https://github.com/ultraevs/AtomicHack/tree/main/go-backend) - Реализован с использванием [GO](https://go.dev/) и фреймворка [Gin](https://github.com/gin-gonic/gin). Задачей модуля является реализация API для взаимодействия с frontend модулем.
@@ -19,7 +19,6 @@
 - Раздел карт, кредитов, инвестиций.
 - Взаимодействие с open banking api.
 
-- 
 ## Запуск решения
 ```sh
     cd VtbApiHack/deployment
@@ -30,7 +29,7 @@
 ##  Состав команды
  - Михаил Евсеев - Backend Developer
  - Артем Брежнев - Designer
- - Иван Лобода - CV
+ - Иван Лобода - Backend Developer
  - Костя Цой - Frontend Developer
  - Глеб Таланцев - Project Manager
 
